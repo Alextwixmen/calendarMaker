@@ -1,3 +1,6 @@
+console.log(
+  "Используй функцию createCalendar(год числом, месяц число). Например: createCalendar(1994, 4) "
+);
 function createCalendar(year, month) {
   let table = document.createElement("table");
   let thead = document.createElement("thead");
